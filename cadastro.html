@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="listar()">
+	<p  class="texto">Cadastro de Contatos</p>
+	<form class="texto" name="formCadastro">
+		<label>Nome:</label>
+		<input type="text" name="nome" id="nome" placeholder="Digite o nome" required="required" />
+		<br>
+		<label>Email:</label>
+		<input type="text" name="email" id="email" placeholder="Digite o email" required="required" />
+		<br>
+		<label>Telefone:</label>
+		<input type="text" name="telefone" id="telefone" placeholder="Digite o telefone" required="required" />
+		<br>
+		<input type="button" value="Cadastrar" onclick="cadastrar()" />
+	</form>
+
+	<h1 class="texto">Contatos Cadastrados</h1>
+	<div id="resultado" class="texto">
+		
+	</div>
+</body>
+</html>

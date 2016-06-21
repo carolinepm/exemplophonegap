@@ -1,0 +1,13 @@
+body {
+	background: black;
+	margin: 10px;
+	color: white;
+
+}
+
+.texto {
+	color: white;
+	font-family: serif;
+	text-align: center;
+	font-size: 16px;
+}
